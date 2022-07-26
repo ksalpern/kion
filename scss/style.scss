@@ -488,5 +488,23 @@ body {
             color: #FFFFFF;
             gap: 14px;
         }
+
+        .schedule-btn {
+            button{
+                background: #283337;
+            border-radius: 56px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+            /* identical to box height, or 124% */
+            text-align: center;
+            color: #FFFFFF;
+            width: 218px;
+            height: 56px;
+            padding-bottom: 106px;
+            }
+        }
     }
 }
