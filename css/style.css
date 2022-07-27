@@ -547,4 +547,7 @@ body {
   margin-left: 154px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.bold-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
