@@ -452,6 +452,8 @@ body {
 .footer {
     background: #101C21;
     padding: 100px 80px 53px 80px;
+    display: flex;
+    justify-content: space-between;
 
     .footer__left {
         .product__container {
@@ -486,25 +488,160 @@ body {
             font-size: 15px;
             line-height: 17px;
             color: #FFFFFF;
-            gap: 14px;
+
+            .demo {
+                padding-top: 14px;
+                padding-bottom: 14px;
+            }
         }
 
         .schedule-btn {
-            button{
+            button {
                 background: #283337;
-            border-radius: 56px;
+                border-radius: 56px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 21px;
+                /* identical to box height, or 124% */
+                text-align: center;
+                color: #FFFFFF;
+                width: 218px;
+                height: 56px;
+                margin-bottom: 106px;
+            }
+        }
+
+        .social {
+            a {
+                .f {
+                    padding-left: 35px;
+                }
+
+                .l {
+                    padding-left: 35px;
+                    padding-right: 35px;
+                }
+            }
+        }
+    }
+}
+
+.footer__right {
+    .footer__right-up {
+        display: flex;
+        justify-content: space-between;
+
+        .resources {
+
+            h3 {
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #878D90;
+
+            }
+
+            p {
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #FFFFFF;
+                margin-top: 14px;
+                margin-bottom: 14px;
+            }
+        }
+
+        .support {
+            margin-left: 148px;
+            margin-right: 116px;
+        }
+
+        .logo {
+            margin-left: 117px;
+        }
+
+    }
+}
+
+.footer__right-down {
+    margin-top: 42px;
+
+    .sigh-up {
+        margin-bottom: 190px;
+        h3 {
             font-family: 'Arial';
             font-style: normal;
-            font-weight: 700;
-            font-size: 17px;
-            line-height: 21px;
-            /* identical to box height, or 124% */
-            text-align: center;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 22px;
+            /* identical to box height */
             color: #FFFFFF;
-            width: 218px;
-            height: 56px;
-            padding-bottom: 106px;
+            margin-bottom: 32px;
+        }
+
+        .subscribe {
+            display: flex;
+
+            input {
+                background: #FFFFFF;
+                border: 1px solid #CFD2D3;
+                border-radius: 4px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #878D90;
+                margin-right: 20px;
+                width: 461px;
+                height: 56px;
+                padding-left: 40px;
             }
+
+            button {
+                background: #283337;
+                border-radius: 56px;
+                width: 160px;
+                height: 56px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .licence {
+        display: flex;
+
+        p {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #9FA4A6;
+            margin-right: 30px;
+        }
+
+        h3 {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #9FA4A6;
+            margin-left: 154px;
         }
     }
 }
